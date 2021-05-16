@@ -26,7 +26,7 @@ A base de dados utilizada no TCC não foi disponibilizada para preservar os locu
 Para montar sua base de dados defina frases diferentes para cada um dos locutores. Idealmente usa-se [frases foneticamente balanceadas](https://jcis.sbrt.org.br/jcis/article/view/166/80).  
 Note que os áudios de impostores são áudios em que outras pessoas falam a frase do locutor original.  
 - Após montar sua base e realizar as etapas de pré-processamento de dados (remoção de silêncio, tratamento de ruídos, etc), organize seus áudios.   
-- Dentro do verificador existe uma pasta chamada Base_de_Dados. Para cada locutor crie uma pasta com o nome dele ex: Gabriel.   
+- Dentro do verificador existe uma pasta chamada Base_de_Dados. Para cada locutor crie uma pasta com o nome dele. Ex: Gabriel.   
 - Dentro dessa pasta crie mais 3 pastas (treino, teste, impostores). Separado os áudios de treino, una-os montando um único arquivo wav.   
 - No arquivo `config.py`, defina: o array de locutores, os limiares de aceitação e dúvida para eles e os valores que deseja utilizar para extração dos MFCC (dependem da sua base - Sample Rate, Hop Length, FFT, etc) e para o processo de clusterização.  
 - No arquivo do `validador.py`, nos métodos `get_limiar_aceitacao` e `get_limiar_duvida` adicione a lógica para os limiares dos seus locutores.
