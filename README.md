@@ -1,10 +1,9 @@
-# Verificador de Locutor
+# Verificador de Locutor    
 
-
-Verificador de Locutor utilizando Coeficientes MFCC e Classificador K-Means
+Verificador de Locutor utilizando Coeficientes MFCC e Classificador K-Means    
 -------------
 
-Desenvolvido para compor Trabalho de Conclusão de Curso disponível em: (ainda não foi publicado)
+Desenvolvido para compor Trabalho de Conclusão de Curso disponível em: (ainda não foi publicado)   
 
 ---
 
@@ -33,7 +32,7 @@ Note que os áudios de impostores são áudios em que outras pessoas falam a fra
 
 
 ### Requirements
-
+<a href="url"><img src="https://user-images.githubusercontent.com/29777680/118411176-a28e7b00-b669-11eb-9bce-ee8abab52ec4.jpg" align="right" height="200" width="200" ></a>
 - Python3 versão 3.6.9
 - scipy
 - numpy
@@ -41,6 +40,3 @@ Note que os áudios de impostores são áudios em que outras pessoas falam a fra
 - librosa
 - python_speech_features
 - scikit-learn
-
-
-
