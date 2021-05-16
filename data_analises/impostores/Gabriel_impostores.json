@@ -1,0 +1,17 @@
+{
+    "locutor": "Gabriel",
+    "valido": 0,
+    "invalido": 2,
+    "duvida": 0,
+    "media_rmse": 0,
+    "met_audios": [
+        {
+            "analise": "impostor_11_1.wav; Invalidado;",
+            "rmse": 6.987150244913671
+        },
+        {
+            "analise": "impostor_11_2.wav; Invalidado;",
+            "rmse": 6.553401277714155
+        }
+    ]
+}
