@@ -51,9 +51,9 @@ def calcula_para_arquivos_teste(locutor):
 
       if resp_validador == 1:
         metricas['valido'] += 1
-      if resp_validador == 0:
+      if resp_validador == 2:
         metricas['duvida'] += 1
-      if resp_validador == -1:
+      if resp_validador == 3:
         metricas['invalido'] += 1
 
       analise = formata_resposta(f, resp_validador)
@@ -97,9 +97,9 @@ def calcula_para_arquivos_impostores(locutor):
 
       if resp_validador == 1:
         metricas['valido'] += 1
-      if resp_validador == 0:
+      if resp_validador == 2:
         metricas['duvida'] += 1
-      if resp_validador == -1:
+      if resp_validador == 3:
         metricas['invalido'] += 1
 
       analise = formata_resposta(f, resp_validador)
@@ -153,10 +153,10 @@ def printa_report_locutor_impostores(metricas, listar_audios=True):
   print("Validados; {};".format(metricas['valido']))
   print("Invalidados; {};".format(metricas['invalido']))
   print("Dúvida; {};".format(metricas['duvida']))
-  print(";;")
-  print("Arquivo; Status; Distorção(soma RMSE);")
 
   if listar_audios:
+    print(";;")
+    print("Arquivo; Status; Distorção(soma RMSE);")
     for met_audio in metricas['met_audios']:
       print(met_audio['analise'] + " {};".format(met_audio['rmse']))
 
