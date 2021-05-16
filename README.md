@@ -16,7 +16,7 @@ Desenvolvido para compor Trabalho de Conclusão de Curso disponível em: (ainda 
 3. Rode o comando `pip3 install -r requirements.txt`
 4. Fase de Treinamento: Para extrair as características dos locutores rode: `python3 extrator.py`
 5. Fase de Teste: Para gerar as métricas de teste rode `python3 analisador.py` escolhendo uma das opções do MENU. 
-6. O arquivo config.py contém as configurações de valores usados para extração dos MFCC, Cluster Centers, nomes dos locutores e limiares.
+6. O arquivo `config.py` contém as configurações de valores usados para extração dos MFCC, Cluster Centers, nomes dos locutores e limiares.
 
 ### Base de Dados
 A base de dados utilizada no TCC não foi disponibilizada para preservar os locutores, entretanto mantive meus dados como exemplo.
