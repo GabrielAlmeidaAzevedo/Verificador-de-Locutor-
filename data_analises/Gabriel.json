@@ -1,0 +1,29 @@
+{
+    "locutor": "Gabriel",
+    "valido": 4,
+    "invalido": 1,
+    "duvida": 0,
+    "media_rmse": 4.303673096793665,
+    "met_audios": [
+        {
+            "analise": "gabriel_11_14.wav;  Validado;",
+            "soma_rmse": 4.220331135862312
+        },
+        {
+            "analise": "gabriel_11_11.wav;  Validado;",
+            "soma_rmse": 4.17188567158878
+        },
+        {
+            "analise": "gabriel_11_12.wav;  Validado;",
+            "soma_rmse": 4.217220739909225
+        },
+        {
+            "analise": "gabriel_11_13.wav; Invalidado;",
+            "soma_rmse": 4.653526668977043
+        },
+        {
+            "analise": "gabriel_11_15.wav;  Validado;",
+            "soma_rmse": 4.25540126763097
+        }
+    ]
+}
