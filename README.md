@@ -21,7 +21,7 @@ Desenvolvido para compor Trabalho de Conclusão de Curso disponível em: (ainda 
 6. O arquivo `config.py` contém as configurações de valores usados para extração dos MFCC, Cluster Centers, nomes dos locutores e limiares.
 
 ### Base de Dados
-A base de dados utilizada no TCC não foi disponibilizada para preservar os locutores, entretanto mantive meus dados como exemplo.
+A base de dados utilizada no TCC não foi disponibilizada para preservar os locutores, entretanto adicionei meus dados como exemplo.
 
 Para montar sua base de dados defina frases diferentes para cada um dos locutores. Idealmente usa-se [frases foneticamente balanceadas](https://jcis.sbrt.org.br/jcis/article/view/166/80).  
 Note que os áudios de impostores são áudios em que outras pessoas falam a frase do locutor original.  
