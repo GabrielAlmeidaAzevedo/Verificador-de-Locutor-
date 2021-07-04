@@ -6,7 +6,7 @@
 Verificador de Locutor utilizando Coeficientes MFCC e Classificador K-Means    
 -------------
 
-Desenvolvido para compor Trabalho de Conclusão de Curso disponível em: (ainda não foi publicado)   
+Desenvolvido para compor Trabalho de Conclusão de Curso disponível em: [Verificador de Locutor utilizando Coeficientes MFCC e Classificador K-Means](http://dspace.sti.ufcg.edu.br:8080/jspui/bitstream/riufcg/19780/1/GABRIEL%20ALMEIDA%20AZEVEDO%20-%20%20-%20TCC%20CI%c3%8aNCIA%20DA%20COMPUTA%c3%87%c3%83O%202021.pdf)
 
 ---
 
